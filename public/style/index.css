@@ -1,3 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: gainsboro;
+}
+
+.avatar{
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.containerAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    padding: 20px 20px 20px 20px;
+    box-shadow: 2px 2px 2px #fafafa;
+    margin-bottom: 30px;
+    
+    
+}
+
+.navList {
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navList >li {
+    margin-right: 20px;
 }
